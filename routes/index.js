@@ -11,6 +11,11 @@ router.get('/about', function(req, res, next) {
   res.render('about');
 });
 
+/* GET investing page. */
+router.get('/investing101', function(req, res, next) {
+  res.render('investing101');
+});
+
 /* GET hello page. */
 router.get('/Hello', function(req, res, next) {
   console.log("URL PARAMS:", req.query)
